@@ -11,23 +11,24 @@ logging:
 
 spring:
   rabbitmq:
-    host: zuihou.rabbitmq.host
+    host: 192.168.1.49
     port: 5672
-    password: guest
-    username: guest
+    password: admin
+    username: admin
   redis:
-    host: zuihou.redis.host
+    host: 192.168.1.49
     port: 6379
+    password: Uetec
     key-prefix: dev
 zuihou:
   mysql:
     admin:
-      database: zuihou_admin_dev       # 根据环境更改
-    host: zuihou.mysql.host     # 根据环境更改
+      database: uetec_admin_dev       # 根据环境更改
+    host: 192.168.1.43     # 根据环境更改
     port: 3306                  # 根据环境更改
     username: root              # 根据环境更改
-    password: bNVOqb7WKLX5Bjnw+LMv92taj25KOxDimXxILPQjw42wgv+1lHzOH8kr97xDwWdhpY67QuYCS7sWN4W46YbkFA==
-# rabbitMQ/Mysql/Redis ip，端口，帐号等根据环境自行修改。
+    password: Ae4Per62HnlG6oTysc8G7l1/c/BHVxY3VWkhKZPsh8D7cOTLHAZe2l2b7n9/aFxUkKehkNYy/u6tY65vip9how==
+# rabbitMQ/Mysql/Redis ip，端口，帐号等根据环境自行修改。  此处mysql密码组要加密
 
 id-generator:
   machine-code: 1  # id生成器机器掩码

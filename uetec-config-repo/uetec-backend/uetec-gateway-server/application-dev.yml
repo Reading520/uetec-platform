@@ -12,11 +12,12 @@ logging:
 
 spring:
   rabbitmq:
-    host: zuihou.rabbitmq.host
+    host: 192.168.1.49
     port: 5672
-    password: guest
-    username: guest
+    password: admin
+    username: admin
   redis:
-    host: zuihou.redis.host
+    host: 192.168.1.49
     port: 6379
+    password: Uetec
 # rabbitMQ/Mysql/Redis ip，端口，帐号等根据环境自行修改。

@@ -5,8 +5,8 @@ logging:
 
 spring:
   rabbitmq:
-    host: zuihou.rabbitmq.host # 在hosts文件中配置地址
+    host: 192.168.1.49 # 在hosts文件中配置地址
     port: 5672
-    username: guest
-    password: guest
+    username: admin
+    password: admin
 # rabbitMQ/Mysql/Redis ip，端口，帐号等根据环境自行修改。
